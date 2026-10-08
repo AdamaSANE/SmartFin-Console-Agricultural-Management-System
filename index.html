@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b2e20" />
+    <meta
+      name="description"
+      content="SmartFin Agri rend l'activité agricole plus visible grâce à un suivi simple des stocks et des finances."
+    />
+    <meta property="og:title" content="SmartFin Agri | Finance agricole inclusive" />
+    <meta
+      property="og:description"
+      content="Un MVP local pour suivre les stocks, les revenus et les dépenses des petites exploitations."
+    />
+    <meta property="og:type" content="website" />
+    <title>SmartFin Agri | Finance agricole inclusive</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Aller au contenu principal</a>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="./" aria-label="SmartFin Agri, accueil">
+          <span class="brand-mark" aria-hidden="true">🌾</span>
+          <span class="brand-copy">
+            <strong>SmartFin Agri</strong>
+            <small>Finance agricole inclusive</small>
+          </span>
+        </a>
+
+        <nav class="nav-links" aria-label="Navigation principale">
+          <a href="#fonctionnalites">Fonctionnalités</a>
+          <a href="#vision">Vision</a>
+          <a href="README.md">Documentation</a>
+          <a class="button button-small button-primary" href="#tester">Tester le MVP</a>
+        </nav>
+        <details class="mobile-menu">
+          <summary aria-label="Ouvrir le menu">Menu <span aria-hidden="true">☰</span></summary>
+          <nav aria-label="Navigation mobile">
+            <a href="#fonctionnalites">Fonctionnalités</a>
+            <a href="#vision">Vision</a>
+            <a href="README.md">Documentation</a>
+            <a class="button button-small button-primary" href="#tester">Tester le MVP</a>
+          </nav>
+        </details>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section container" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Agriculture · Finance · Impact</p>
+          <h1 id="hero-title">Rendre l'activité agricole visible.</h1>
+          <p class="hero-lead">
+            SmartFin Agri aide les petites exploitations à suivre leurs stocks,
+            leurs revenus et leurs dépenses dans un outil simple, local et
+            compréhensible.
+          </p>
+          <div class="actions">
+            <a class="button button-primary" href="#tester">Découvrir le MVP <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#vision">Notre vision</a>
+          </div>
+          <p class="hero-note">          MVP en construction · Construit depuis Ziguinchor, Sénégal</p>
+        </div>
+
+        <aside class="dashboard-preview" aria-label="Aperçu des indicateurs SmartFin">
+          <div class="preview-header">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>APERÇU SMARTFIN</span>
+          </div>
+          <p class="score-label">Score de crédibilité indicatif</p>
+          <p class="score">76<span>/100</span></p>
+          <div class="preview-grid">
+            <div class="preview-stat"><strong>100 000</strong><span>FCFA revenus</span></div>
+            <div class="preview-stat"><strong>25 000</strong><span>FCFA dépenses</span></div>
+            <div class="preview-stat"><strong>20,5 kg</strong><span>Oignons en stock</span></div>
+            <div class="preview-stat"><strong>+75 000</strong><span>Résultat net</span></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="proof-strip" aria-label="Principes du projet">
+        <div class="container proof-grid">
+          <div><strong>Simple</strong><span>Conçu pour commencer sans formation longue.</span></div>
+          <div><strong>Local</strong><span>Données stockées dans une base SQLite maîtrisée.</span></div>
+          <div><strong>Responsable</strong><span>Un score indicatif, jamais une promesse de crédit.</span></div>
+        </div>
+      </section>
+
+      <section id="fonctionnalites" class="section container" aria-labelledby="features-title">
+        <div class="section-heading">
+          <p class="eyebrow">Le MVP aujourd'hui</p>
+          <h2 id="features-title">Les bons indicateurs, au même endroit.</h2>
+          <p class="section-intro">Commencer par les tâches essentielles : savoir ce qui est en stock, ce qui entre et ce qui sort.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">📦</span>
+            <h3>Stocks</h3>
+            <p>Enregistrer les récoltes et suivre les quantités disponibles par culture.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">💰</span>
+            <h3>Finances</h3>
+            <p>Historiser les revenus et dépenses en FCFA pour connaître le résultat net.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon" aria-hidden="true">📊</span>
+            <h3>Décisions</h3>
+            <p>Visualiser l'activité et obtenir un score transparent, indicatif et explicable.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="vision" class="section section-soft" aria-labelledby="vision-title">
+        <div class="container">
+          <div class="vision-grid">
+            <div class="section-heading">
+                <p class="eyebrow">Où j'en suis aujourd'hui</p>
+                <h2 id="vision-title">Construire étape par étape une finance agricole plus inclusive.</h2>
+              <p class="section-intro">
+                  Je suis actuellement au stade MVP : le cœur de SmartFin fonctionne
+                  en local avec une console Python, une base SQLite et un dashboard
+                  Streamlit. Cette première version me permet de tester les usages
+                  essentiels avant de construire une solution plus large.
+                </p>
+                <p class="section-intro">
+                  Les petits producteurs, commerçants et transformateurs font vivre
+                  nos économies, mais leurs activités restent souvent invisibles.
+                  Mon objectif est de partir de leurs réalités, de recueillir leurs
+                  retours et d'améliorer le produit avec eux.
+                </p>
+              </div>
+              <ul class="vision-points">
+                <li><strong>✅ MVP fonctionnel</strong><span>Stocks, revenus, dépenses, historique, score indicatif et persistance SQLite.</span></li>
+                <li><strong>🔧 Travail actuel</strong><span>Stabiliser l'expérience, documenter le projet et préparer un déploiement professionnel.</span></li>
+                <li><strong>🎯 Prochaine validation</strong><span>Tester les besoins avec des utilisateurs et partenaires agricoles au Sénégal.</span></li>
+              </ul>
+          </div>
+
+          <div class="roadmap" aria-label="Feuille de route">
+            <div class="roadmap-step"><strong>01 · Maintenant</strong><span>Finaliser le MVP local, la landing page et la documentation.</span></div>
+              <div class="roadmap-step"><strong>02 · Validation terrain</strong><span>Observer les usages, mesurer la valeur et recueillir les retours.</span></div>
+              <div class="roadmap-step"><strong>03 · Vision future</strong><span>Ajouter profils, API, voix et langues locales avec des partenaires.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tester" class="section container" aria-labelledby="test-title">
+        <div class="cta">
+          <div>
+            <p class="eyebrow eyebrow-light">Prêt à explorer ?</p>
+            <h2 id="test-title">Tester SmartFin Agri</h2>
+            <p>Le site présente le projet. Le dashboard se lance localement avec Streamlit et utilise la même base SQLite que la console.</p>
+          </div>
+          <div class="cta-actions">
+            <code>python -m pip install -r requirements.txt<br />streamlit run app.py</code>
+            <a class="button button-light" href="README.md">Lire la documentation <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="./">
+            <span class="brand-mark" aria-hidden="true">🌾</span>
+            <span class="brand-copy"><strong>SmartFin Agri</strong><small>Finance agricole inclusive</small></span>
+          </a>
+          <p class="footer-text">Rendre l'activité agricole plus visible, compréhensible et finançable.</p>
+        </div>
+        <div>
+          <h2 class="footer-title">Explorer</h2>
+          <nav class="footer-links" aria-label="Liens du pied de page">
+            <a href="#fonctionnalites">Fonctionnalités</a>
+            <a href="#vision">Notre vision</a>
+            <a href="README.md">Documentation</a>
+          </nav>
+        </div>
+        <div>
+          <h2 class="footer-title">Projet</h2>
+          <nav class="footer-links" aria-label="Ressources du projet">
+            <a href="https://github.com/AdamaSANE/SmartFin-Console-Agricultural-Management-System" target="_blank" rel="noopener">Dépôt GitHub <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/AdamaSANE" target="_blank" rel="noopener">Voir le profil fondateur <span aria-hidden="true">↗</span></a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 SmartFin Agri · MVP en construction par Adama SANE</span>
+          <span>Le score est indicatif et ne remplace pas une décision de crédit.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
