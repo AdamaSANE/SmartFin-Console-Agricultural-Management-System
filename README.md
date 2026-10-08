@@ -99,15 +99,16 @@ python -m unittest discover -v
 ## 🌐 Déployer la landing page sur GitHub Pages
 
 La landing page statique est composée de [index.html](./index.html) et
-[css/styles.css](./css/styles.css). Un workflow GitHub Actions est inclus dans
-`.github/workflows/pages.yml`.
+[css/styles.css](./css/styles.css).
 
 Pour activer le déploiement :
 
-1. Pousser le projet sur GitHub dans la branche `main`.
+1. Pousser le projet sur GitHub.
 2. Ouvrir **Settings → Pages** dans le dépôt.
-3. Choisir **GitHub Actions** comme source de déploiement.
-4. Attendre la fin du workflow **Deploy landing page to GitHub Pages**.
+3. Dans **Build and deployment**, choisir **Deploy from a branch**.
+4. Sélectionner la branche `main`.
+5. Sélectionner le dossier `/ (root)`.
+6. Cliquer sur **Save**.
 
 La page publique sera disponible à l'adresse :
 
